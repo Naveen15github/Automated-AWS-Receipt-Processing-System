@@ -10,8 +10,6 @@ The goal is to **replace manual data entry** with a fully automated, reliable, a
 
 ---
 
-## Architecture 🏗️
-
 The architecture of this system is **modular**, with each AWS service performing a dedicated role:
 
 1. **Storage Layer (Amazon S3)**
