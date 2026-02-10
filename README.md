@@ -1,6 +1,6 @@
 # Automated-AWS-Receipt-Processing-System
 
-![Alt text](image_url "Optional title")
+![Alt text](https://github.com/Naveen15github/Automated-AWS-Receipt-Processing-System/blob/111298d39b66301f18449fce47e64e14deef29f1/Gemini_Generated_Image_w7jfmow7jfmow7jf.png)
 
 ## Overview
 
@@ -27,7 +27,7 @@ The architecture of this system is **modular**, with each AWS service performing
 5. **Security Layer (IAM Roles & Policies)**
    All services communicate securely through **custom IAM roles**, ensuring that each service has **least-privilege access** to perform its tasks.
 
-![Alt text](image_url "Optional title")
+![Alt text](https://github.com/Naveen15github/Automated-AWS-Receipt-Processing-System/blob/111298d39b66301f18449fce47e64e14deef29f1/Screenshot%20(439).png)
 
 ---
 
@@ -50,7 +50,7 @@ The architecture of this system is **modular**, with each AWS service performing
 
 1. **S3 Bucket**
 
-![Alt text](image_url "Optional title")
+![Alt text](https://github.com/Naveen15github/Automated-AWS-Receipt-Processing-System/blob/111298d39b66301f18449fce47e64e14deef29f1/Screenshot%20(436).png)
 
    * Create an S3 bucket (e.g., `receipt-storage`) for uploading receipts.
    * Enable versioning and server-side encryption for security.
@@ -58,7 +58,7 @@ The architecture of this system is **modular**, with each AWS service performing
 
 3. **DynamoDB Table**
 
-![Alt text](image_url "Optional title")
+![Alt text](https://github.com/Naveen15github/Automated-AWS-Receipt-Processing-System/blob/111298d39b66301f18449fce47e64e14deef29f1/Screenshot%20(433).png)
 
    * Create a DynamoDB table (e.g., `Receipts`).
    * Use `ReceiptID` as the primary key.
@@ -68,9 +68,9 @@ The architecture of this system is **modular**, with each AWS service performing
 
 ### 2. Notification Setup
 
-![Alt text](image_url "Optional title")
+![Alt text](https://github.com/Naveen15github/Automated-AWS-Receipt-Processing-System/blob/111298d39b66301f18449fce47e64e14deef29f1/Screenshot%20(434).png)
 
-![Alt text](image_url "Optional title")
+![Alt text](https://github.com/Naveen15github/Automated-AWS-Receipt-Processing-System/blob/111298d39b66301f18449fce47e64e14deef29f1/Screenshot%20(435).png)
 
 
 1. **Amazon SES Setup**
@@ -83,9 +83,9 @@ The architecture of this system is **modular**, with each AWS service performing
 
 ### 3. Processing Setup (Lambda Function)
 
-![Alt text](image_url "Optional title")
+![Alt text](https://github.com/Naveen15github/Automated-AWS-Receipt-Processing-System/blob/111298d39b66301f18449fce47e64e14deef29f1/Screenshot%20(437).png)
 
-![Alt text](image_url "Optional title")
+![Alt text](https://github.com/Naveen15github/Automated-AWS-Receipt-Processing-System/blob/111298d39b66301f18449fce47e64e14deef29f1/Screenshot%20(438).png)
 
 
 1. **Lambda Function Creation**
@@ -106,7 +106,7 @@ The architecture of this system is **modular**, with each AWS service performing
 
 ### 4. Integration & Testing
 
-![Alt text](image_url "Optional title")
+![Alt text](https://github.com/Naveen15github/Automated-AWS-Receipt-Processing-System/blob/111298d39b66301f18449fce47e64e14deef29f1/Screenshot%20(431).jpg)
 
 1. Upload a sample receipt to the S3 bucket.
 2. Lambda is automatically triggered.
